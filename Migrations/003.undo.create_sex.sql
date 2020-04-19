@@ -1,0 +1,3 @@
+ALTER TABLE animals DROP COLUMN IF EXISTS sex;
+
+DROP TYPE IF EXISTS sex_category;
